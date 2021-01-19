@@ -1,0 +1,7 @@
+[core]
+    analytics = false
+    remote = s3remote
+['remote "s3remote"']
+    url = s3://dy-checkpointz-clients-staging/models
+    region = us-east-1
+    profile = tf-stg-user
