@@ -1,0 +1,7 @@
+$ git add --all
+$ git commit -m "Rerun as dvc pipeline"
+$ dvc commit
+$ git push --set-upstream origin dvc-pipeline
+$ git tag -a sgd-pipeline -m "Trained SGD as DVC pipeline."
+$ git push origin --tags
+$ dvc push
